@@ -5,12 +5,11 @@ const customerSchema = new Schema({
     "DateTime":Date,
     "CompanyVisit":String,
     "Area":String,
+    "Supply":String,
+    "Vehicles":String,
+    "Plates":String
 },{
     timestamps:true
 });  
+
 module.exports = model("Customer", customerSchema);
-
-
-
-
-
